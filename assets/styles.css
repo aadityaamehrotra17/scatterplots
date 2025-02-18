@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #18122B;
+    height: 100vh;
+    width: 100vw;
+}
+
+#main-section {
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+}
+
+#main-title {
+    text-align: center;
+    color: #635985;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+#upload-data button {
+    margin-top: 10px;
+}
+
+#size-section {
+    margin-top: 10px;
+}
+
+#generate-button {
+    margin: 0;
+}
+
+#export-button {
+    margin: 0 0 0 20px;
+}
+
+.slider {
+    margin: 10px 0 0 4px !important;
+    padding: unset !important;
+}
+
+.rc-slider {
+    padding: unset !important;
+}
+
+#mean-section {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#mean-label {
+    margin-bottom: 10px;
+}
+
+#buttons-section {
+    margin-top: 10px;
+}
+
+.matrix-row:first-of-type {
+    margin-top: 10px !important;
+}
+
+#plots-section {
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    color: #635985;
+    font-weight: bold;
+}
+
+button {
+    background-color: #443C68;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #393053;
+    cursor: pointer;
+}
+
+.graph {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.js-plotly-plot {
+    width: 100% !important;
+    aspect-ratio: 1 / 1 !important;
+}
